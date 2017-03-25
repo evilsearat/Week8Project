@@ -1,25 +1,25 @@
 <html>
 <head>
-    <title>Derek Petrara Task List</title>
+    <title>Web Storage Tester</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-    <link rel="stylesheet" media="screen" href="css/todolist.css" />
+    <link rel="stylesheet" media="screen" href="css/index.css" />
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.js"></script>
-	<script type="text/javascript" src="js/prowebapps.js"></script>
-	<script type="text/javascript" src="js/todolist.js"></script>
+    <script type="text/javascript" src="js/json2.js"></script>
+    <script type="text/javascript" src="js/prowebapps.js"></script>
+    <script type="text/javascript" src="js/webstorage-test.js"></script>
 </head>
 <body>
-    <h1 class="fancy">Derek Petrarca Create Task</h1>
-	<div id="errors"></div>
-    <form id="taskentry">
-    <ul>
-        <li><input type="text" class="required" minlength=2 name="task[name]" id="taskname" placeholder="Task Name"/></li>
-        <li>
-            <textarea name="task[description]" id="taskdesc" placeholder="Description" rows="5"></textarea>
-        </li>
-        <li><input type="text" class="required date" name="task[due]" id="taskdue" placeholder="Task Due" /></li>
-        <li class="naked"><input type="submit" name="Save" /></li>
+    <h1 class="fancy">Derek Petrarca's Web Storage JSON Wrapper</h1>
+    <ul id="items">
+        <li class="header">Items in Storage (tap to remove)</li>
     </ul>
-    </form>
+	<ul id="newitem">
+        <li class="header">New Item</li>
+        <li class="bordered"><input type="text" id="newtitle" placeholder="Title" /></li>
+	</ul>
+    <ul id="actions">
+        <li><button id="add">Add</button></li>
+        <li><button id="clear">Clear</button></li>
+    </ul>
 </body>
 </html>

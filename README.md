@@ -1,4 +1,4 @@
-# A Blank PhoneGap App
+# Week 3 Project, Local Storage
 
 ## Usage
 

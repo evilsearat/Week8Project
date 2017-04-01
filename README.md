@@ -1,4 +1,4 @@
-# Week 3 Project, Local Storage
+# Week 4 Project, Constructing a Multipage App
 
 ## Usage
 

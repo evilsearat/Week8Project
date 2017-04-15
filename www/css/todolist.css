@@ -187,3 +187,10 @@ ul.calendar li.day {
     font-size: 0.85em;
     padding: 1px 0 0 0;
 }
+
+#wrapper {
+		position:relative;
+		z-index:1;
+		width:auto;
+		overflow:hidden;
+}

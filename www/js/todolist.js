@@ -382,6 +382,8 @@ $(document).ready(function() {
     PROWEBAPPS.ViewManager.activate("main");
     
     //activate the scroller
-    // Add your code here
+    myScroll = new iScroll('scroller', {desktopCompatibility:true});
+	var wrapperH = window.innerHeight - 35;
+	document.getElementById('wrapper').style.height = wrapperH;
     
 });

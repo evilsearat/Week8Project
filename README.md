@@ -1,4 +1,4 @@
-# Week 4 Project, Constructing a Multipage App
+# Week 6 Project, Polishing UI
 
 ## Usage
 

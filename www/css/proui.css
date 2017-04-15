@@ -5,6 +5,7 @@ body {
 
 div.view {
     display: none;
+    background-color: yellow;
     padding: 0 6px;
 }
 

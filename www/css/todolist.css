@@ -189,8 +189,9 @@ ul.calendar li.day {
 }
 
 #wrapper {
-		position:relative;
-		z-index:1;
-		width:auto;
-		overflow:hidden;
+    position:relative;
+    z-index:1;
+    width:auto;
+    height:200;
+    overflow:hidden;
 }

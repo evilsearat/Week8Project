@@ -383,7 +383,7 @@ $(document).ready(function() {
     
     //activate the scroller
     myScroll = new iScroll('scroller', {desktopCompatibility:true});
-	var wrapperH = window.innerHeight - 35;
-	document.getElementById('wrapper').style.height = wrapperH;
+    var wrapperH = window.innerHeight - 35;
+    document.getElementById('wrapper').style.height  = wrapperH;
     
 });

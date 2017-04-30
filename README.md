@@ -1,4 +1,4 @@
-# Week 6 Project, Polishing UI
+# Week 8 Project, Native To-Do List Mobile Web Application
 
 ## Usage
 
